@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link bootstarp cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- link fontaweesome kit -->
+    <!-- fontaweesome cdn -->
+    <script src="https://kit.fontawesome.com/4d5a762cf0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="lg-container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light nav-bars fixed-to bg-white ">
+                <div class="container">
+                    <a class="navbar-brand text-white nabs" href="#">
+                        <img src="images/logo-v2.png" alt="">
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-bars text-dark"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark fs-5" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-dark fs-5" href="#">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-5" href="#">Our fruit</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-5" href="#">Contuct Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-5" href="#">Login</a>
+                            </li>
+
+
+
+                        </ul>
+
+                        <span><i class="fas fa-search text-dark fs-5"></i></span>
+
+                    </div>
+            </nav>
+            <!-- end navbar -->
+            <!-- start carousel -->
+            <section id="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item banner active">
+                            <img width="300px" height="700px" src="images/slider1.jpg" class="d-block w-100 img-fluid"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item banner">
+                            <img width="300px" height="700px" src="images/slider2.jpg" class="d-block w-100 img-fluid"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item banner">
+                            <img width="300px" height="700px" src="images/slider3.jpg" class="d-block w-100 img-fluid"
+                                alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- end carousel -->
+        </div>
+
+    </header>
+    <!-- end header -->
+    <!-- start main  -->
+    <main>
+        <section id="fresh-fruit">
+            <div class="container fruit-card mt-4">
+                <div class="cards-title">
+                    <h1><span class="sp-text">--------------</span> Fresh Fruit </h1>
+                </div>
+                <div class="row gy-3">
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot1.png" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards-body">
+                                <h2>LYCHEE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$48</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot2.png" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards-body">
+                                <h2>APPLE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$45</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot3.png" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards-body">
+                                <h2>APPLE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$50</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot4.png" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards-body">
+                                <h2>APPLE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$70</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- cards-1 -->
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot5.jpg" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards1-body">
+                                <h2>APPLE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$58</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img width="160px" height="130px" src="images/froot3.png" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="cards-body">
+                                <h2>APPLE</h2>
+                                <button class="btn btns ps-lg-2 pe-lg-2 pt-lg-0 pb-lg-0">Buy Now</button>
+                                <br>
+                                <br>
+                                <a class="price" href="">$60</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+        </section>
+
+        <!-- end card section -->
+
+        <!-- start organic food -->
+        <section id="organic-food">
+
+            <div class="container mt-4">
+                <div class="section-title">
+                    <h1>ORGANIC FOOD</h1>
+                </div>
+
+                <div class="row g-3 mt-5">
+                    <div class="col-lg-4 zoom">
+                        <img width="260px" height="180px" class="img-fluid" src="images/fresh4.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 zoom">
+                        <img width="260px" height="180px" class="img-fluid" src="images/fresh2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 zoom">
+                        <img width="260px" height="180px" class="img-fluid" src="images/fresh3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end organic food  -->
+        <!-- startfresh food -->
+        <section id="fresh-food">
+            <div class="container mt-5  ">
+                <div class="row  d-flex align-items-center">
+                    <div class="col-lg-4 fresh-1">
+                        <img src="images/fresh1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-2"></div>
+
+                    <div class="col-lg-6 fresh-2">
+
+                        <h1> <span class="we">We are </span> FRESH FOOD</h1>
+                        <p class="">The fact of the matter is that you really know something's organic when you find
+                            bugs! they
+                            obviously wouldn't have made it that far in a non-organic growing environment, so better
+                            than any certification or seal on a package, the presence of creatures let you know the
+                            plant was healthy and
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- end frsh food -->
+        <!-- start card icon -->
+        <section id="cards-icon">
+            <div class="container mt-5">
+                <div class="row g-3">
+                    <div class="col-lg-4 cards">
+                        <span class="cards-icons"><i class="fas fa-dolly-flatbed"></i></span>
+                        <h3>FREE SHIPPING </h3>
+                        <p>ON ORDER OVER $500</p>
+
+                    </div>
+                    <div class="col-lg-4 cards">
+                        <span class="cards-icons-1"><i class="far fa-question-circle"></i></span>
+                        <h3>SUPPORT
+                        </h3>
+                        <p>LIFE TIME SUPPORT 24/7
+
+                        </p>
+
+                    </div>
+                    <div class="col-lg-4 cards">
+                        <span class="cards-icons-2"><i class="fas fa-phone-volume"></i></span>
+                        <h3>CONTACT WITH US
+                        </h3>
+                        <p>+07 (0) 7782 9137
+
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- end card icon -->
+
+        <!-- start latest product -->
+        <section id="latest-product">
+            <div class="container">
+                <div class="row la-header mt-5 g-3">
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/latest1.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/latest2.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la3.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la4.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la5.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la6.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la7.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la8.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la9.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la4.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la6.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 head ">
+                        <div class="head-2">
+                            <div class="col-banner">
+                                <img height="250px" width="200px" src="images/la3.jpg" alt="">
+                            </div>
+                            <div class="col-info">
+                                <h5>MANGO</h5>
+                                <p><del class="dele">$700.00</del> $350.00</p>
+                            </div>
+                            <div class="la-icons">
+                                <span class="la-icon"><i class="fas fa-shopping-bag"><span class="buy">Buy
+                                            Now</span></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons ">
+                    <button class="btn btn-warning ps-lg-5 pe-lg-5 shadow-lg   rounded">View All</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- end latest product -->
+        <!-- start offer -->
+        <section id="offer">
+            <div class="container offers-bg">
+                <div class="row g-3 mt-4 d-flex align-items-center line">
+                    <div class="col-lg-6 col-ban">
+                        <img class="img-fluid" src="images/get30%.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-infos">
+                        <span class="spc">Special Offers</span>
+                        <h1>GET 30% OFF</h1>
+                        <p>YOUR ORDER OF $100 OR MORE</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end offer -->
+
+
+
+    </main>
+
+    <!-- end main -->
+
+    <!-- start footer -->
+    <section>
+        <div class="container mt-5">
+            <div class=" row g-3 line1 d-flex align-items-center">
+                <div class="col-lg-4">
+                    <h1>About Us</h1>
+                    <p class="fs-5">With more than 15 years of experience we can proudly say that we are one of the best
+                        in business,
+                        a
+                        trusted supplier for more than 1000 companies...
+
+                    </p>
+                    <div class="buttons ">
+                        <button class="btn btn-warning ps-lg-5 pe-lg-5 shadow-lg   rounded">Click More</button>
+
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="footer-banner">
+                        <img src="images/juna.jpg" alt="">
+                    </div>
+                    <div class="footer-icon">
+                        <span><i class="fab fa-facebook fs-1 text-white ms-2"></i></span>
+                        <a href="https://www.facebook.com/profile.php?id=100009224856897"><i
+                                class="fab fa-facebook-messenger fs-1 text-white ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-banner2 mb-2">
+                        <img width="180px" src="images/paypal-footer.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- end footer -->
+
+
+
+
+
+
+
+
+
+    <!-- link bootstarp bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
